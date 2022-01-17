@@ -5,9 +5,12 @@ __pycache__/
 *.pyc
 
 # Virtual env
-.venv
+.venv/
 env/
 venv/
 
 # IDE
-.vscode
+.vscode/
+
+# Project specific
+src/local/
