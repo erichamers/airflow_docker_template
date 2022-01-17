@@ -18,8 +18,8 @@ fi
 printf "Creating python virtual environment\n"
 python -m venv $VENV
 
-echo "export AIRFLOW_HOME=$AIRFLOW_HOME" >> ./venv/bin/activate
-echo "export AIRFLOW_CONFIG=$LOCAL_CONFIG/airflow.cfg" >> ./venv/bin/activate
+echo "export AIRFLOW_HOME=$AIRFLOW_HOME" >> $VENV/bin/activate
+echo "export AIRFLOW_CONFIG=$LOCAL_CONFIG/airflow.cfg" >> $VENV/bin/activate
 
 AIRFLOW_VERSION=2.2.3
 PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
