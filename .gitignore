@@ -14,3 +14,7 @@ venv/
 
 # Project specific
 src/local/
+*.pid
+
+# Logs
+*.log

@@ -5,3 +5,6 @@ docker-compose.yaml
 # git
 .git/
 .gitignore
+
+# env
+venv/

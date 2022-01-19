@@ -1,0 +1,2 @@
+# Use this file to enter the extra packages you want installed in the docker container.
+# Use the requirements_local.txt file to install on your host machine.
